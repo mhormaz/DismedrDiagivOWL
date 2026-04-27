@@ -1,0 +1,1763 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv" ],
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:intersectionOf"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "3",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#short",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "short"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "17",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "6",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "21",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "24",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Severity",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Severity",
+      "undefined" : "Severity"
+    },
+    "comment" : {
+      "undefined" : "Risk severity categories"
+    },
+    "attributes" : [ "external" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Country",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Country",
+      "undefined" : "Country"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Ireland",
+      "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+      "comment" : {
+        "undefined" : "Country of Ireland (IE)"
+      },
+      "labels" : {
+        "IRI-based" : "Ireland",
+        "undefined" : "Ireland"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The countries of the world. Used on incidentes and manufacturers"
+    },
+    "attributes" : [ "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "48",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "52",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceType",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DeviceType",
+      "undefined" : "DeviceType"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceType1",
+      "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+      "comment" : {
+        "undefined" : "The type Implantable active device"
+      },
+      "labels" : {
+        "IRI-based" : "DeviceType1",
+        "undefined" : "ImplantableActiveDevice"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Tipes of medical devices and in vitro diagnosis"
+    },
+    "attributes" : [ "external" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/ActionType",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ActionType",
+      "undefined" : "ActionType"
+    },
+    "comment" : {
+      "undefined" : "Type of action aginst an incident"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Gender",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gender",
+      "undefined" : "Gender"
+    },
+    "comment" : {
+      "undefined" : "Gender of the patient afected by an incident"
+    },
+    "attributes" : [ "external" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RegulatoryFramework",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RegulatoryFramework",
+      "undefined" : "RegulatoryFramework"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/regulatoryFWMDR",
+      "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+      "comment" : {
+        "undefined" : "The regulatory framework MDR"
+      },
+      "labels" : {
+        "IRI-based" : "regulatoryFWMDR",
+        "undefined" : "MDR"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Regulatory european frameworks of devices. The frameworks are \"MDR\" and \"IVDR\""
+    },
+    "attributes" : [ "external" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Incident",
+      "undefined" : "Incident"
+    },
+    "comment" : {
+      "undefined" : "Incident data, the device and the afected patient"
+    },
+    "attributes" : [ "external" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "74",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskClass",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskClass",
+      "undefined" : "RiskClass"
+    },
+    "subClasses" : [ "78", "76" ],
+    "comment" : {
+      "undefined" : "Classes of risks"
+    },
+    "attributes" : [ "external" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "81",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "83",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/IVDRiskClass",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IVDRiskClass",
+      "undefined" : "IVDRiskClass"
+    },
+    "comment" : {
+      "undefined" : "\"In vitro diagonisis\" risk classes"
+    },
+    "attributes" : [ "external" ],
+    "id" : "78",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Risk",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk",
+      "undefined" : "Risk"
+    },
+    "comment" : {
+      "undefined" : "Known risk of a certain device type"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FSCA",
+      "undefined" : "FSCA"
+    },
+    "comment" : {
+      "undefined" : "The security corrective action in the field against incidents"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/CompetentAuthority",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CompetentAuthority",
+      "undefined" : "CompetentAuthority"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/AuthorityIreland",
+      "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+      "comment" : {
+        "undefined" : "Health Products Regulatory Authority (HPRA)"
+      },
+      "labels" : {
+        "IRI-based" : "AuthorityIreland",
+        "undefined" : "AuthorityIreland"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Compentent authority for a manufacturer"
+    },
+    "attributes" : [ "external" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Device",
+      "undefined" : "Device"
+    },
+    "comment" : {
+      "undefined" : "Names and characteristics for \"High risk medical devices\" and \"in vitro diagnosis\", made by some manufacturer with the corresponding regulation (MDR or IVDR)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskCategory",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskCategory",
+      "undefined" : "RiskCategory"
+    },
+    "comment" : {
+      "undefined" : "Categories of risks"
+    },
+    "attributes" : [ "external" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Status",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Status",
+      "undefined" : "Status"
+    },
+    "comment" : {
+      "undefined" : "The FSCA's status"
+    },
+    "attributes" : [ "external" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskType",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskType",
+      "undefined" : "RiskType"
+    },
+    "comment" : {
+      "undefined" : "Types of risks"
+    },
+    "attributes" : [ "external" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/IncidentType",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IncidentType",
+      "undefined" : "IncidentType"
+    },
+    "comment" : {
+      "undefined" : "Types of device incidents"
+    },
+    "attributes" : [ "external" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Manufacturer",
+      "undefined" : "Manufacturer"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer001",
+      "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+      "comment" : {
+        "undefined" : "Manufacturer Medtronic plc"
+      },
+      "labels" : {
+        "IRI-based" : "Manufacturer001",
+        "undefined" : "Manufacturer-001"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The manufacturers of the devices and the company information."
+    },
+    "attributes" : [ "external" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "103",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "102",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "98",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "47",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "104",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Probability",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Probability",
+      "undefined" : "Probability"
+    },
+    "comment" : {
+      "undefined" : "Probability category of a risk. Values are \"Moderate\", \"Serious\" and \"Critical\"."
+    },
+    "attributes" : [ "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceMD",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DeviceMD"
+    },
+    "intersection" : [ "30" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "106"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/MDRiskClass",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MDRiskClass",
+      "undefined" : "MDRiskClass"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/MDRiskClassIII",
+      "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+      "comment" : {
+        "undefined" : "The MD class III"
+      },
+      "labels" : {
+        "IRI-based" : "MDRiskClassIII",
+        "undefined" : "ClassIII"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "\"Medical devices\" risk classes"
+    },
+    "attributes" : [ "external" ],
+    "id" : "76",
+    "superClasses" : [ "77" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceIVD",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DeviceIVD"
+    },
+    "intersection" : [ "30" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "108"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "53",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "63",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "66",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "88",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "101",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "107",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "109",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "110",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_srn",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "eudamed_srn",
+      "undefined" : "eudamed_srn"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The single registration number generated from eudamed for the manufacturer"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/outcome",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "outcome",
+      "undefined" : "outcome"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "An outocome's comment"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_id",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "risk_id",
+      "undefined" : "risk_id"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "The risk's identifier"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/fsca_id",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "fsca_id",
+      "undefined" : "fsca_id"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The action's identifier"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/action_type",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "action_type",
+      "undefined" : "action_type"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The action type of a FSCA"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_incident_id",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "FSCA_incident_id",
+      "undefined" : "incident_id"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The incident associated with a FSCA"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/probability",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "probability",
+      "undefined" : "probability"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "The probability of some riske"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/udi_id",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "udi_id",
+      "undefined" : "udi_id"
+    },
+    "domain" : "30",
+    "comment" : {
+      "undefined" : "Unique identifier of the product"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_description",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "FSCA_description",
+      "undefined" : "description"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The action's description"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_device_id",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "incident_device_id",
+      "undefined" : "device_id"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "The deviced involved with an incident"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_id",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "device_id",
+      "undefined" : "device_id"
+    },
+    "domain" : "30",
+    "comment" : {
+      "undefined" : "The device's identifier"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/patient_age",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "patient_age",
+      "undefined" : "patient_age"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "The age of the patient"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/status",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "status",
+      "undefined" : "status"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The status of a FSCA"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_fsca_ref",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "eudamed_fsca_ref",
+      "undefined" : "eudamed_fsca_ref"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The action's eudamed's fsca code"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/name",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "name",
+      "undefined" : "manufacturer_name"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Name of the manufacturer"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/regulatory_framework",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "44",
+    "label" : {
+      "IRI-based" : "regulatory_framework",
+      "undefined" : "regulatory_framework"
+    },
+    "domain" : "30",
+    "comment" : {
+      "undefined" : "The regulatory framework of a device"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/closure_date",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "closure_date",
+      "undefined" : "closure_date"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The action's closure date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/manufacturer_id",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "manufacturer_id",
+      "undefined" : "manufacturer_id"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The manufacturer's identifier"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/contact_email",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "contact_email",
+      "undefined" : "contact_email"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The manufacturer's contact email"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_description",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "incident_description",
+      "undefined" : "description"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "The incident's description"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_risk_id",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "incident_risk_id",
+      "undefined" : "risk_id"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "The risk associated with the incident"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_description",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "risk_description",
+      "undefined" : "description"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "The risk description"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/report_date",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "report_date",
+      "undefined" : "report_date"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "The report's date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "61"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/event_date",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "event_date",
+      "undefined" : "event_date"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "The incident's event date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "63"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_type",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "incident_type",
+      "undefined" : "incident_type"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "The type of the incident"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "64"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/detection_date",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "52",
+    "label" : {
+      "IRI-based" : "detection_date",
+      "undefined" : "detection_date"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "The detection's date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/affected_device_type",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "affected_device_type",
+      "undefined" : "affected_device_type"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "The affected device type of some riske"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "67"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_manufacturer_id",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "device_manufacturer_id",
+      "undefined" : "manufacturer_id"
+    },
+    "domain" : "30",
+    "comment" : {
+      "undefined" : "The manufacturer of a device"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/competent_authority",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "competent_authority",
+      "undefined" : "competent_authority"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The competent authority of a manufaturer"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_countries_affected",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "FSCA_countries_affected",
+      "undefined" : "countries_affected"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The countries affected by the FSCA"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_type",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "risk_type",
+      "undefined" : "risk_type"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "The risk type of some riske"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "72"
+  }, {
+    "range" : "77",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "range" : "77",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/is_ivd",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "is_ivd",
+      "undefined" : "is_ivd"
+    },
+    "domain" : "30",
+    "comment" : {
+      "undefined" : "If a device is an \"in vitro diagnosis\""
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_class",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "risk_class",
+      "undefined" : "risk_class"
+    },
+    "domain" : "30",
+    "comment" : {
+      "undefined" : "The risk class of a device"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/is_implantable",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "is_implantable",
+      "undefined" : "is_implantable"
+    },
+    "domain" : "30",
+    "comment" : {
+      "undefined" : "If a device is implantable or not"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/reporting_entity",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "reporting_entity",
+      "undefined" : "reporting_entity"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "The reporting entity (manufacturer) of an incident involving a device"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "85"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_name",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "device_name",
+      "undefined" : "device_name"
+    },
+    "domain" : "30",
+    "comment" : {
+      "undefined" : "The name of the device"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/patient_sex",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "62",
+    "label" : {
+      "IRI-based" : "patient_sex",
+      "undefined" : "patient_sex"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "The gender of the patient affected"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/authority_name",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "authority_name",
+      "undefined" : "authority_name"
+    },
+    "domain" : "70",
+    "comment" : {
+      "undefined" : "The name of the authority"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "88"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/status_name",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "74",
+    "label" : {
+      "IRI-based" : "status_name",
+      "undefined" : "status_name"
+    },
+    "domain" : "39",
+    "comment" : {
+      "undefined" : "The status name"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/scope",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "81",
+    "label" : {
+      "IRI-based" : "scope",
+      "undefined" : "scope"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The action's scope"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_incident_ref",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "eudamed_incident_ref",
+      "undefined" : "eudamed_incident_ref"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "The incident's eudamed code"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/devices_affected",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "devices_affected",
+      "undefined" : "devices_affected"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The number of affected devices"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/reusable",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "reusable",
+      "undefined" : "is_reusable"
+    },
+    "domain" : "30",
+    "comment" : {
+      "undefined" : "If this device is reusable or not"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/severity",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "severity",
+      "undefined" : "severity"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "The severity of some riske"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/authorization_number",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "98",
+    "label" : {
+      "IRI-based" : "authorization_number",
+      "undefined" : "authorization_number"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The number generated by the authorization. The pattern is: country/year/6 digit number"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_name",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "risk_name",
+      "undefined" : "risk_name"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "The risk's name"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/intended_purpose",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "intended_purpose",
+      "undefined" : "intended_purpose"
+    },
+    "domain" : "30",
+    "comment" : {
+      "undefined" : "The intended purpose of a device"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/active",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "active",
+      "undefined" : "is_active"
+    },
+    "domain" : "30",
+    "comment" : {
+      "undefined" : "If a device is active or not"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "101"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_type",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "device_type",
+      "undefined" : "device_type"
+    },
+    "domain" : "30",
+    "comment" : {
+      "undefined" : "The type of a device"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "105"
+  }, {
+    "range" : "106",
+    "domain" : "108",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
+  }, {
+    "range" : "76",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/imdrf_code",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "imdrf_code",
+      "undefined" : "imdrf_code"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "The International Medical Device Regulators Forum code of a risk"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/corrective_action_taken",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "corrective_action_taken",
+      "undefined" : "corrective_action_taken"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "If an incident has a corrective action taken or not"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/country_reported",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "country_reported",
+      "undefined" : "country_reported"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "The country that reported the incident"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_id",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "incident_id",
+      "undefined" : "incident_id"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "The incident's identifier"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "113"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/manufacturer_country",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "26",
+    "label" : {
+      "IRI-based" : "manufacturer_country",
+      "undefined" : "country"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The country of the manufacturer"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/action_date",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "action_date",
+      "undefined" : "action_date"
+    },
+    "domain" : "13",
+    "comment" : {
+      "undefined" : "The action's start date"
+    },
+    "attributes" : [ "external", "datatype" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_cateogry",
+    "baseIri" : "http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv",
+    "range" : "95",
+    "label" : {
+      "IRI-based" : "risk_cateogry",
+      "undefined" : "risk_category"
+    },
+    "domain" : "8",
+    "comment" : {
+      "undefined" : "The category of some riske"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "116"
+  } ]
+}

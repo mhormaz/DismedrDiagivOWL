@@ -1,0 +1,641 @@
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_countries_affected
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_countries_affected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_countries_affected> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_countries_affected> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Country> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_countries_affected> <http://www.w3.org/2000/01/rdf-schema#comment> "The countries affected by the FSCA" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_countries_affected> <http://www.w3.org/2000/01/rdf-schema#label> "countries_affected" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_incident_id
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_incident_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_incident_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_incident_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_incident_id> <http://www.w3.org/2000/01/rdf-schema#comment> "The incident associated with a FSCA" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_incident_id> <http://www.w3.org/2000/01/rdf-schema#label> "incident_id" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/action_type
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/action_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/action_type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/action_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/ActionType> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/action_type> <http://www.w3.org/2000/01/rdf-schema#comment> "The action type of a FSCA" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/action_type> <http://www.w3.org/2000/01/rdf-schema#label> "action_type" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/affected_device_type
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/affected_device_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/affected_device_type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Risk> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/affected_device_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceType> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/affected_device_type> <http://www.w3.org/2000/01/rdf-schema#comment> "The affected device type of some riske" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/affected_device_type> <http://www.w3.org/2000/01/rdf-schema#label> "affected_device_type" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/competent_authority
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/competent_authority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/competent_authority> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/competent_authority> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/CompetentAuthority> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/competent_authority> <http://www.w3.org/2000/01/rdf-schema#comment> "The competent authority of a manufaturer" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/competent_authority> <http://www.w3.org/2000/01/rdf-schema#label> "competent_authority" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/country_reported
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/country_reported> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/country_reported> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/country_reported> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Country> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/country_reported> <http://www.w3.org/2000/01/rdf-schema#comment> "The country that reported the incident" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/country_reported> <http://www.w3.org/2000/01/rdf-schema#label> "country_reported" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_manufacturer_id
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_manufacturer_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_manufacturer_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_manufacturer_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_manufacturer_id> <http://www.w3.org/2000/01/rdf-schema#comment> "The manufacturer of a device" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_manufacturer_id> <http://www.w3.org/2000/01/rdf-schema#label> "manufacturer_id" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_type
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceType> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_type> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of a device" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_type> <http://www.w3.org/2000/01/rdf-schema#label> "device_type" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_device_id
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_device_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_device_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_device_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_device_id> <http://www.w3.org/2000/01/rdf-schema#comment> "The deviced involved with an incident" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_device_id> <http://www.w3.org/2000/01/rdf-schema#label> "device_id" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_risk_id
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_risk_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_risk_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_risk_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Risk> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_risk_id> <http://www.w3.org/2000/01/rdf-schema#comment> "The risk associated with the incident" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_risk_id> <http://www.w3.org/2000/01/rdf-schema#label> "risk_id" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_type
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/IncidentType> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_type> <http://www.w3.org/2000/01/rdf-schema#comment> "The type of the incident" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_type> <http://www.w3.org/2000/01/rdf-schema#label> "incident_type" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/manufacturer_country
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/manufacturer_country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/manufacturer_country> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/manufacturer_country> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Country> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/manufacturer_country> <http://www.w3.org/2000/01/rdf-schema#comment> "The country of the manufacturer" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/manufacturer_country> <http://www.w3.org/2000/01/rdf-schema#label> "country" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/patient_sex
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/patient_sex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/patient_sex> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/patient_sex> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Gender> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/patient_sex> <http://www.w3.org/2000/01/rdf-schema#comment> "The gender of the patient affected" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/patient_sex> <http://www.w3.org/2000/01/rdf-schema#label> "patient_sex" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/probability
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/probability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/probability> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Risk> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/probability> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Probability> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/probability> <http://www.w3.org/2000/01/rdf-schema#comment> "The probability of some riske" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/probability> <http://www.w3.org/2000/01/rdf-schema#label> "probability" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/regulatory_framework
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/regulatory_framework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/regulatory_framework> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/regulatory_framework> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RegulatoryFramework> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/regulatory_framework> <http://www.w3.org/2000/01/rdf-schema#comment> "The regulatory framework of a device" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/regulatory_framework> <http://www.w3.org/2000/01/rdf-schema#label> "regulatory_framework" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/reporting_entity
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/reporting_entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/reporting_entity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/reporting_entity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/reporting_entity> <http://www.w3.org/2000/01/rdf-schema#comment> "The reporting entity (manufacturer) of an incident involving a device" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/reporting_entity> <http://www.w3.org/2000/01/rdf-schema#label> "reporting_entity" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_cateogry
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_cateogry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_cateogry> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Risk> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_cateogry> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskCategory> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_cateogry> <http://www.w3.org/2000/01/rdf-schema#comment> "The category of some riske" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_cateogry> <http://www.w3.org/2000/01/rdf-schema#label> "risk_category" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_class
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_class> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_class> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskClass> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_class> <http://www.w3.org/2000/01/rdf-schema#comment> "The risk class of a device" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_class> <http://www.w3.org/2000/01/rdf-schema#label> "risk_class" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_type
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_type> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Risk> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_type> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskType> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_type> <http://www.w3.org/2000/01/rdf-schema#comment> "The risk type of some riske" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_type> <http://www.w3.org/2000/01/rdf-schema#label> "risk_type" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/severity
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/severity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/severity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Risk> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/severity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Severity> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/severity> <http://www.w3.org/2000/01/rdf-schema#comment> "The severity of some riske" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/severity> <http://www.w3.org/2000/01/rdf-schema#label> "severity" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/status
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/status> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/status> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Status> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/status> <http://www.w3.org/2000/01/rdf-schema#comment> "The status of a FSCA" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/status> <http://www.w3.org/2000/01/rdf-schema#label> "status" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_description
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_description> <http://www.w3.org/2000/01/rdf-schema#comment> "The action's description" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_description> <http://www.w3.org/2000/01/rdf-schema#label> "description" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/action_date
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/action_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/action_date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/action_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/action_date> <http://www.w3.org/2000/01/rdf-schema#comment> "The action's start date" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/action_date> <http://www.w3.org/2000/01/rdf-schema#label> "action_date" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/active
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/active> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/active> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/active> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/active> <http://www.w3.org/2000/01/rdf-schema#comment> "If a device is active or not" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/active> <http://www.w3.org/2000/01/rdf-schema#label> "is_active" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/authority_name
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/authority_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/authority_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/CompetentAuthority> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/authority_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/authority_name> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the authority" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/authority_name> <http://www.w3.org/2000/01/rdf-schema#label> "authority_name" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/authorization_number
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/authorization_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/authorization_number> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/authorization_number> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/authorization_number> <http://www.w3.org/2000/01/rdf-schema#comment> "The number generated by the authorization. The pattern is: country/year/6 digit number" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/authorization_number> <http://www.w3.org/2000/01/rdf-schema#label> "authorization_number" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/closure_date
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/closure_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/closure_date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/closure_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/closure_date> <http://www.w3.org/2000/01/rdf-schema#comment> "The action's closure date" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/closure_date> <http://www.w3.org/2000/01/rdf-schema#label> "closure_date" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/contact_email
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/contact_email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/contact_email> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/contact_email> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/contact_email> <http://www.w3.org/2000/01/rdf-schema#comment> "The manufacturer's contact email" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/contact_email> <http://www.w3.org/2000/01/rdf-schema#label> "contact_email" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/corrective_action_taken
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/corrective_action_taken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/corrective_action_taken> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/corrective_action_taken> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/corrective_action_taken> <http://www.w3.org/2000/01/rdf-schema#comment> "If an incident has a corrective action taken or not" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/corrective_action_taken> <http://www.w3.org/2000/01/rdf-schema#label> "corrective_action_taken" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/detection_date
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/detection_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/detection_date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/detection_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/detection_date> <http://www.w3.org/2000/01/rdf-schema#comment> "The detection's date" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/detection_date> <http://www.w3.org/2000/01/rdf-schema#label> "detection_date" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_id
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_id> <http://www.w3.org/2000/01/rdf-schema#comment> "The device's identifier" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_id> <http://www.w3.org/2000/01/rdf-schema#label> "device_id" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_name
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_name> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the device" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_name> <http://www.w3.org/2000/01/rdf-schema#label> "device_name" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/devices_affected
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/devices_affected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/devices_affected> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/devices_affected> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/devices_affected> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of affected devices" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/devices_affected> <http://www.w3.org/2000/01/rdf-schema#label> "devices_affected" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_fsca_ref
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_fsca_ref> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_fsca_ref> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_fsca_ref> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_fsca_ref> <http://www.w3.org/2000/01/rdf-schema#comment> "The action's eudamed's fsca code" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_fsca_ref> <http://www.w3.org/2000/01/rdf-schema#label> "eudamed_fsca_ref" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_incident_ref
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_incident_ref> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_incident_ref> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_incident_ref> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_incident_ref> <http://www.w3.org/2000/01/rdf-schema#comment> "The incident's eudamed code" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_incident_ref> <http://www.w3.org/2000/01/rdf-schema#label> "eudamed_incident_ref" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_srn
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_srn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_srn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_srn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_srn> <http://www.w3.org/2000/01/rdf-schema#comment> "The single registration number generated from eudamed for the manufacturer" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_srn> <http://www.w3.org/2000/01/rdf-schema#label> "eudamed_srn" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/event_date
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/event_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/event_date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/event_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/event_date> <http://www.w3.org/2000/01/rdf-schema#comment> "The incident's event date" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/event_date> <http://www.w3.org/2000/01/rdf-schema#label> "event_date" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/fsca_id
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/fsca_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/fsca_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/fsca_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/fsca_id> <http://www.w3.org/2000/01/rdf-schema#comment> "The action's identifier" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/fsca_id> <http://www.w3.org/2000/01/rdf-schema#label> "fsca_id" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/imdrf_code
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/imdrf_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/imdrf_code> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Risk> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/imdrf_code> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/imdrf_code> <http://www.w3.org/2000/01/rdf-schema#comment> "The International Medical Device Regulators Forum code of a risk" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/imdrf_code> <http://www.w3.org/2000/01/rdf-schema#label> "imdrf_code" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_description
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_description> <http://www.w3.org/2000/01/rdf-schema#comment> "The incident's description" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_description> <http://www.w3.org/2000/01/rdf-schema#label> "description" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_id
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_id> <http://www.w3.org/2000/01/rdf-schema#comment> "The incident's identifier" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/incident_id> <http://www.w3.org/2000/01/rdf-schema#label> "incident_id" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/intended_purpose
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/intended_purpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/intended_purpose> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/intended_purpose> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/intended_purpose> <http://www.w3.org/2000/01/rdf-schema#comment> "The intended purpose of a device" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/intended_purpose> <http://www.w3.org/2000/01/rdf-schema#label> "intended_purpose" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/is_implantable
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/is_implantable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/is_implantable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/is_implantable> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/is_implantable> <http://www.w3.org/2000/01/rdf-schema#comment> "If a device is implantable or not" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/is_implantable> <http://www.w3.org/2000/01/rdf-schema#label> "is_implantable" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/is_ivd
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/is_ivd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/is_ivd> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/is_ivd> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/is_ivd> <http://www.w3.org/2000/01/rdf-schema#comment> "If a device is an \"in vitro diagnosis\"" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/is_ivd> <http://www.w3.org/2000/01/rdf-schema#label> "is_ivd" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/manufacturer_id
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/manufacturer_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/manufacturer_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/manufacturer_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/manufacturer_id> <http://www.w3.org/2000/01/rdf-schema#comment> "The manufacturer's identifier" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/manufacturer_id> <http://www.w3.org/2000/01/rdf-schema#label> "manufacturer_id" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/name
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/name> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the manufacturer" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/name> <http://www.w3.org/2000/01/rdf-schema#label> "manufacturer_name" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/outcome
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/outcome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/outcome> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/outcome> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/outcome> <http://www.w3.org/2000/01/rdf-schema#comment> "An outocome's comment" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/outcome> <http://www.w3.org/2000/01/rdf-schema#label> "outcome" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/patient_age
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/patient_age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/patient_age> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/patient_age> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#short> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/patient_age> <http://www.w3.org/2000/01/rdf-schema#comment> "The age of the patient" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/patient_age> <http://www.w3.org/2000/01/rdf-schema#label> "patient_age" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/report_date
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/report_date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/report_date> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/report_date> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/report_date> <http://www.w3.org/2000/01/rdf-schema#comment> "The report's date" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/report_date> <http://www.w3.org/2000/01/rdf-schema#label> "report_date" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/reusable
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/reusable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/reusable> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/reusable> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/reusable> <http://www.w3.org/2000/01/rdf-schema#comment> "If this device is reusable or not" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/reusable> <http://www.w3.org/2000/01/rdf-schema#label> "is_reusable" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_description
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_description> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Risk> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_description> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_description> <http://www.w3.org/2000/01/rdf-schema#comment> "The risk description" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_description> <http://www.w3.org/2000/01/rdf-schema#label> "description" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_id
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Risk> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_id> <http://www.w3.org/2000/01/rdf-schema#comment> "The risk's identifier" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_id> <http://www.w3.org/2000/01/rdf-schema#label> "risk_id" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_name
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Risk> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_name> <http://www.w3.org/2000/01/rdf-schema#comment> "The risk's name" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_name> <http://www.w3.org/2000/01/rdf-schema#label> "risk_name" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/scope
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/scope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/scope> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/scope> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/scope> <http://www.w3.org/2000/01/rdf-schema#comment> "The action's scope" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/scope> <http://www.w3.org/2000/01/rdf-schema#label> "scope" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/status_name
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/status_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/status_name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Status> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/status_name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/status_name> <http://www.w3.org/2000/01/rdf-schema#comment> "The status name" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/status_name> <http://www.w3.org/2000/01/rdf-schema#label> "status_name" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/udi_id
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/udi_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/udi_id> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/udi_id> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/udi_id> <http://www.w3.org/2000/01/rdf-schema#comment> "Unique identifier of the product" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/udi_id> <http://www.w3.org/2000/01/rdf-schema#label> "udi_id" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/ActionType
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/ActionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/ActionType> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of action aginst an incident" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/ActionType> <http://www.w3.org/2000/01/rdf-schema#label> "ActionType" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/CompetentAuthority
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/CompetentAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/CompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#comment> "Compentent authority for a manufacturer" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/CompetentAuthority> <http://www.w3.org/2000/01/rdf-schema#label> "CompetentAuthority" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Country
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Country> <http://www.w3.org/2000/01/rdf-schema#comment> "The countries of the world. Used on incidentes and manufacturers" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device> <http://www.w3.org/2000/01/rdf-schema#comment> "Names and characteristics for \"High risk medical devices\" and \"in vitro diagnosis\", made by some manufacturer with the corresponding regulation (MDR or IVDR)." .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device> <http://www.w3.org/2000/01/rdf-schema#label> "Device" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceIVD
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceIVD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceIVD> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/IVDRiskClass> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_class> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceIVD> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceMD> .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceMD
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceMD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceMD> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid5 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/MDRiskClass> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_class> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceType
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceType> <http://www.w3.org/2000/01/rdf-schema#comment> "Tipes of medical devices and in vitro diagnosis" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceType> <http://www.w3.org/2000/01/rdf-schema#label> "DeviceType" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid9 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#dateTime> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/closure_date> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Country> .
+_:genid13 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA_countries_affected> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA> <http://www.w3.org/2000/01/rdf-schema#comment> "The security corrective action in the field against incidents" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/FSCA> <http://www.w3.org/2000/01/rdf-schema#label> "FSCA" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Gender
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Gender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Gender> <http://www.w3.org/2000/01/rdf-schema#comment> "Gender of the patient afected by an incident" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Gender> <http://www.w3.org/2000/01/rdf-schema#label> "Gender" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/IVDRiskClass
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/IVDRiskClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/IVDRiskClass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskClass> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/IVDRiskClass> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/MDRiskClass> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/IVDRiskClass> <http://www.w3.org/2000/01/rdf-schema#comment> "\"In vitro diagonisis\" risk classes" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/IVDRiskClass> <http://www.w3.org/2000/01/rdf-schema#label> "IVDRiskClass" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> <http://www.w3.org/2000/01/rdf-schema#comment> "Incident data, the device and the afected patient" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Incident> <http://www.w3.org/2000/01/rdf-schema#label> "Incident" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/IncidentType
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/IncidentType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/IncidentType> <http://www.w3.org/2000/01/rdf-schema#comment> "Types of device incidents" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/IncidentType> <http://www.w3.org/2000/01/rdf-schema#label> "IncidentType" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/MDRiskClass
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/MDRiskClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/MDRiskClass> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskClass> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/MDRiskClass> <http://www.w3.org/2000/01/rdf-schema#comment> "\"Medical devices\" risk classes" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/MDRiskClass> <http://www.w3.org/2000/01/rdf-schema#label> "MDRiskClass" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer> <http://www.w3.org/2000/01/rdf-schema#comment> "The manufacturers of the devices and the company information." .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer> <http://www.w3.org/2000/01/rdf-schema#label> "Manufacturer" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Probability
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Probability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Probability> <http://www.w3.org/2000/01/rdf-schema#comment> "Probability category of a risk. Values are \"Moderate\", \"Serious\" and \"Critical\"." .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Probability> <http://www.w3.org/2000/01/rdf-schema#label> "Probability" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RegulatoryFramework
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RegulatoryFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RegulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#comment> "Regulatory european frameworks of devices. The frameworks are \"MDR\" and \"IVDR\"" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RegulatoryFramework> <http://www.w3.org/2000/01/rdf-schema#label> "RegulatoryFramework" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Risk
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Risk> <http://www.w3.org/2000/01/rdf-schema#comment> "Known risk of a certain device type" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Risk> <http://www.w3.org/2000/01/rdf-schema#label> "Risk" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskCategory
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskCategory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskCategory> <http://www.w3.org/2000/01/rdf-schema#comment> "Categories of risks" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskCategory> <http://www.w3.org/2000/01/rdf-schema#label> "RiskCategory" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskClass
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskClass> <http://www.w3.org/2000/01/rdf-schema#comment> "Classes of risks" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskClass> <http://www.w3.org/2000/01/rdf-schema#label> "RiskClass" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskType
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskType> <http://www.w3.org/2000/01/rdf-schema#comment> "Types of risks" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RiskType> <http://www.w3.org/2000/01/rdf-schema#label> "RiskType" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Severity
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Severity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Severity> <http://www.w3.org/2000/01/rdf-schema#comment> "Risk severity categories" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Severity> <http://www.w3.org/2000/01/rdf-schema#label> "Severity" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Status
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Status> <http://www.w3.org/2000/01/rdf-schema#comment> "The FSCA's status" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Status> <http://www.w3.org/2000/01/rdf-schema#label> "Status" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/AuthorityIreland
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/AuthorityIreland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/AuthorityIreland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/CompetentAuthority> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/AuthorityIreland> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/authority_name> "Health Products Regulatory Authority (HPRA)" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/AuthorityIreland> <http://www.w3.org/2000/01/rdf-schema#comment> "Health Products Regulatory Authority (HPRA)" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/AuthorityIreland> <http://www.w3.org/2000/01/rdf-schema#label> "AuthorityIreland" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device001
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_manufacturer_id> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer001> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_type> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceType1> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/regulatory_framework> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/regulatoryFWMDR> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/risk_class> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/MDRiskClassIII> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_id> "DEV-001" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/device_name> "HeartMate 3 LVAD" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/intended_purpose> "Ventricular assist device for end-stage heart failure" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/is_implantable> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/is_ivd> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/reusable> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/udi_id> "(01)00380740009095" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device001> <http://www.w3.org/2000/01/rdf-schema#comment> "HeartMate 3 LVAD from Ireland" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Device001> <http://www.w3.org/2000/01/rdf-schema#label> "Device-001" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceType1
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceType1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceType1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceType> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceType1> <http://www.w3.org/2000/01/rdf-schema#comment> "The type Implantable active device" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/DeviceType1> <http://www.w3.org/2000/01/rdf-schema#label> "ImplantableActiveDevice" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Ireland
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Ireland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Ireland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Country> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Ireland> <http://www.w3.org/2000/01/rdf-schema#comment> "Country of Ireland (IE)" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Ireland> <http://www.w3.org/2000/01/rdf-schema#label> "Ireland" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/MDRiskClassIII
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/MDRiskClassIII> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/MDRiskClassIII> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/MDRiskClass> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/MDRiskClassIII> <http://www.w3.org/2000/01/rdf-schema#comment> "The MD class III" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/MDRiskClassIII> <http://www.w3.org/2000/01/rdf-schema#label> "ClassIII" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer001
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/competent_authority> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/AuthorityIreland> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/manufacturer_country> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Ireland> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/authorization_number> "IE/2017/001234" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/contact_email> "regulatory@medtronic.com" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/eudamed_srn> "SRN-IE-MED-0001" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/manufacturer_id> "MAN-001" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer001> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/name> "Medtronic plc" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer001> <http://www.w3.org/2000/01/rdf-schema#comment> "Manufacturer Medtronic plc" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/Manufacturer001> <http://www.w3.org/2000/01/rdf-schema#label> "Manufacturer-001" .
+# 
+# http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/regulatoryFWMDR
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/regulatoryFWMDR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/regulatoryFWMDR> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/RegulatoryFramework> .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/regulatoryFWMDR> <http://www.w3.org/2000/01/rdf-schema#comment> "The regulatory framework MDR" .
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/regulatoryFWMDR> <http://www.w3.org/2000/01/rdf-schema#label> "MDR" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
