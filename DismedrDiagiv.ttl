@@ -1,0 +1,703 @@
+@prefix : <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv/> .
+
+<http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#FSCA_countries_affected
+:FSCA_countries_affected rdf:type owl:ObjectProperty ;
+                         rdfs:domain :FSCA ;
+                         rdfs:range :Country ;
+                         rdfs:comment "The countries affected by the FSCA" ;
+                         rdfs:label "countries_affected" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#FSCA_incident_id
+:FSCA_incident_id rdf:type owl:ObjectProperty ;
+                  rdfs:domain :FSCA ;
+                  rdfs:range :Incident ;
+                  rdfs:comment "The incident associated with a FSCA" ;
+                  rdfs:label "incident_id" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#action_type
+:action_type rdf:type owl:ObjectProperty ;
+             rdfs:domain :FSCA ;
+             rdfs:range :ActionType ;
+             rdfs:comment "The action type of a FSCA" ;
+             rdfs:label "action_type" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#affected_device_type
+:affected_device_type rdf:type owl:ObjectProperty ;
+                      rdfs:domain :Risk ;
+                      rdfs:range :DeviceType ;
+                      rdfs:comment "The affected device type of some riske" ;
+                      rdfs:label "affected_device_type" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#competent_authority
+:competent_authority rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Manufacturer ;
+                     rdfs:range :CompetentAuthority ;
+                     rdfs:comment "The competent authority of a manufaturer" ;
+                     rdfs:label "competent_authority" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#country_reported
+:country_reported rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Incident ;
+                  rdfs:range :Country ;
+                  rdfs:comment "The country that reported the incident" ;
+                  rdfs:label "country_reported" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#device_manufacturer_id
+:device_manufacturer_id rdf:type owl:ObjectProperty ;
+                        rdfs:domain :Device ;
+                        rdfs:range :Manufacturer ;
+                        rdfs:comment "The manufacturer of a device" ;
+                        rdfs:label "manufacturer_id" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#device_type
+:device_type rdf:type owl:ObjectProperty ;
+             rdfs:domain :Device ;
+             rdfs:range :DeviceType ;
+             rdfs:comment "The type of a device" ;
+             rdfs:label "device_type" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#incident_device_id
+:incident_device_id rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Incident ;
+                    rdfs:range :Device ;
+                    rdfs:comment "The deviced involved with an incident" ;
+                    rdfs:label "device_id" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#incident_risk_id
+:incident_risk_id rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Incident ;
+                  rdfs:range :Risk ;
+                  rdfs:comment "The risk associated with the incident" ;
+                  rdfs:label "risk_id" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#incident_type
+:incident_type rdf:type owl:ObjectProperty ;
+               rdfs:domain :Incident ;
+               rdfs:range :IncidentType ;
+               rdfs:comment "The type of the incident" ;
+               rdfs:label "incident_type" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#manufacturer_country
+:manufacturer_country rdf:type owl:ObjectProperty ;
+                      rdfs:domain :Manufacturer ;
+                      rdfs:range :Country ;
+                      rdfs:comment "The country of the manufacturer" ;
+                      rdfs:label "country" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#patient_sex
+:patient_sex rdf:type owl:ObjectProperty ;
+             rdfs:domain :Incident ;
+             rdfs:range :Gender ;
+             rdfs:comment "The gender of the patient affected" ;
+             rdfs:label "patient_sex" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#probability
+:probability rdf:type owl:ObjectProperty ;
+             rdfs:domain :Risk ;
+             rdfs:range :Probability ;
+             rdfs:comment "The probability of some riske" ;
+             rdfs:label "probability" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#regulatory_framework
+:regulatory_framework rdf:type owl:ObjectProperty ;
+                      rdfs:domain :Device ;
+                      rdfs:range :RegulatoryFramework ;
+                      rdfs:comment "The regulatory framework of a device" ;
+                      rdfs:label "regulatory_framework" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#reporting_entity
+:reporting_entity rdf:type owl:ObjectProperty ;
+                  rdfs:domain :Incident ;
+                  rdfs:range :Manufacturer ;
+                  rdfs:comment "The reporting entity (manufacturer) of an incident involving a device" ;
+                  rdfs:label "reporting_entity" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#risk_cateogry
+:risk_cateogry rdf:type owl:ObjectProperty ;
+               rdfs:domain :Risk ;
+               rdfs:range :RiskCategory ;
+               rdfs:comment "The category of some riske" ;
+               rdfs:label "risk_category" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#risk_class
+:risk_class rdf:type owl:ObjectProperty ;
+            rdfs:domain :Device ;
+            rdfs:range :RiskClass ;
+            rdfs:comment "The risk class of a device" ;
+            rdfs:label "risk_class" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#risk_type
+:risk_type rdf:type owl:ObjectProperty ;
+           rdfs:domain :Risk ;
+           rdfs:range :RiskType ;
+           rdfs:comment "The risk type of some riske" ;
+           rdfs:label "risk_type" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#severity
+:severity rdf:type owl:ObjectProperty ;
+          rdfs:domain :Risk ;
+          rdfs:range :Severity ;
+          rdfs:comment "The severity of some riske" ;
+          rdfs:label "severity" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#status
+:status rdf:type owl:ObjectProperty ;
+        rdfs:domain :FSCA ;
+        rdfs:range :Status ;
+        rdfs:comment "The status of a FSCA" ;
+        rdfs:label "status" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#FSCA_description
+:FSCA_description rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :FSCA ;
+                  rdfs:range xsd:string ;
+                  rdfs:comment "The action's description" ;
+                  rdfs:label "description" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#action_date
+:action_date rdf:type owl:DatatypeProperty ;
+             rdfs:domain :FSCA ;
+             rdfs:range xsd:dateTime ;
+             rdfs:comment "The action's start date" ;
+             rdfs:label "action_date" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#active
+:active rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Device ;
+        rdfs:range xsd:boolean ;
+        rdfs:comment "If a device is active or not" ;
+        rdfs:label "is_active" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#authority_name
+:authority_name rdf:type owl:DatatypeProperty ;
+                rdfs:domain :CompetentAuthority ;
+                rdfs:range rdfs:Literal ;
+                rdfs:comment "The name of the authority" ;
+                rdfs:label "authority_name" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#authorization_number
+:authorization_number rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Manufacturer ;
+                      rdfs:range xsd:string ;
+                      rdfs:comment "The number generated by the authorization. The pattern is: country/year/6 digit number" ;
+                      rdfs:label "authorization_number" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#closure_date
+:closure_date rdf:type owl:DatatypeProperty ;
+              rdfs:domain :FSCA ;
+              rdfs:range xsd:dateTime ;
+              rdfs:comment "The action's closure date" ;
+              rdfs:label "closure_date" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#contact_email
+:contact_email rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Manufacturer ;
+               rdfs:range xsd:string ;
+               rdfs:comment "The manufacturer's contact email" ;
+               rdfs:label "contact_email" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#corrective_action_taken
+:corrective_action_taken rdf:type owl:DatatypeProperty ;
+                         rdfs:domain :Incident ;
+                         rdfs:range xsd:boolean ;
+                         rdfs:comment "If an incident has a corrective action taken or not" ;
+                         rdfs:label "corrective_action_taken" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#detection_date
+:detection_date rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Incident ;
+                rdfs:range xsd:dateTime ;
+                rdfs:comment "The detection's date" ;
+                rdfs:label "detection_date" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#device_id
+:device_id rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Device ;
+           rdfs:range xsd:string ;
+           rdfs:comment "The device's identifier" ;
+           rdfs:label "device_id" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#device_name
+:device_name rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Device ;
+             rdfs:range xsd:string ;
+             rdfs:comment "The name of the device" ;
+             rdfs:label "device_name" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#devices_affected
+:devices_affected rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :FSCA ;
+                  rdfs:range xsd:integer ;
+                  rdfs:comment "The number of affected devices" ;
+                  rdfs:label "devices_affected" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#eudamed_fsca_ref
+:eudamed_fsca_ref rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :FSCA ;
+                  rdfs:range xsd:string ;
+                  rdfs:comment "The action's eudamed's fsca code" ;
+                  rdfs:label "eudamed_fsca_ref" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#eudamed_incident_ref
+:eudamed_incident_ref rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Incident ;
+                      rdfs:range xsd:string ;
+                      rdfs:comment "The incident's eudamed code" ;
+                      rdfs:label "eudamed_incident_ref" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#eudamed_srn
+:eudamed_srn rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Manufacturer ;
+             rdfs:range xsd:string ;
+             rdfs:comment "The single registration number generated from eudamed for the manufacturer" ;
+             rdfs:label "eudamed_srn" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#event_date
+:event_date rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Incident ;
+            rdfs:range xsd:dateTime ;
+            rdfs:comment "The incident's event date" ;
+            rdfs:label "event_date" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#fsca_id
+:fsca_id rdf:type owl:DatatypeProperty ;
+         rdfs:domain :FSCA ;
+         rdfs:range xsd:string ;
+         rdfs:comment "The action's identifier" ;
+         rdfs:label "fsca_id" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#imdrf_code
+:imdrf_code rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Risk ;
+            rdfs:range xsd:string ;
+            rdfs:comment "The International Medical Device Regulators Forum code of a risk" ;
+            rdfs:label "imdrf_code" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#incident_description
+:incident_description rdf:type owl:DatatypeProperty ;
+                      rdfs:domain :Incident ;
+                      rdfs:range xsd:string ;
+                      rdfs:comment "The incident's description" ;
+                      rdfs:label "description" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#incident_id
+:incident_id rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Incident ;
+             rdfs:range xsd:string ;
+             rdfs:comment "The incident's identifier" ;
+             rdfs:label "incident_id" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#intended_purpose
+:intended_purpose rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Device ;
+                  rdfs:range xsd:string ;
+                  rdfs:comment "The intended purpose of a device" ;
+                  rdfs:label "intended_purpose" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#is_implantable
+:is_implantable rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Device ;
+                rdfs:range xsd:boolean ;
+                rdfs:comment "If a device is implantable or not" ;
+                rdfs:label "is_implantable" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#is_ivd
+:is_ivd rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Device ;
+        rdfs:range xsd:boolean ;
+        rdfs:comment "If a device is an \"in vitro diagnosis\"" ;
+        rdfs:label "is_ivd" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#manufacturer_id
+:manufacturer_id rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Manufacturer ;
+                 rdfs:range xsd:string ;
+                 rdfs:comment "The manufacturer's identifier" ;
+                 rdfs:label "manufacturer_id" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Manufacturer ;
+      rdfs:range xsd:string ;
+      rdfs:comment "Name of the manufacturer" ;
+      rdfs:label "manufacturer_name" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#outcome
+:outcome rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Incident ;
+         rdfs:range xsd:string ;
+         rdfs:comment "An outocome's comment" ;
+         rdfs:label "outcome" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#patient_age
+:patient_age rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Incident ;
+             rdfs:range xsd:short ;
+             rdfs:comment "The age of the patient" ;
+             rdfs:label "patient_age" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#report_date
+:report_date rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Incident ;
+             rdfs:range xsd:dateTime ;
+             rdfs:comment "The report's date" ;
+             rdfs:label "report_date" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#reusable
+:reusable rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Device ;
+          rdfs:range xsd:boolean ;
+          rdfs:comment "If this device is reusable or not" ;
+          rdfs:label "is_reusable" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#risk_description
+:risk_description rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Risk ;
+                  rdfs:range xsd:string ;
+                  rdfs:comment "The risk description" ;
+                  rdfs:label "description" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#risk_id
+:risk_id rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Risk ;
+         rdfs:range xsd:string ;
+         rdfs:comment "The risk's identifier" ;
+         rdfs:label "risk_id" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#risk_name
+:risk_name rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Risk ;
+           rdfs:range xsd:string ;
+           rdfs:comment "The risk's name" ;
+           rdfs:label "risk_name" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#scope
+:scope rdf:type owl:DatatypeProperty ;
+       rdfs:domain :FSCA ;
+       rdfs:range xsd:string ;
+       rdfs:comment "The action's scope" ;
+       rdfs:label "scope" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#status_name
+:status_name rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Status ;
+             rdfs:range xsd:string ;
+             rdfs:comment "The status name" ;
+             rdfs:label "status_name" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#udi_id
+:udi_id rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Device ;
+        rdfs:range xsd:string ;
+        rdfs:comment "Unique identifier of the product" ;
+        rdfs:label "udi_id" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#ActionType
+:ActionType rdf:type owl:Class ;
+            rdfs:comment "Type of action aginst an incident" ;
+            rdfs:label "ActionType" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#CompetentAuthority
+:CompetentAuthority rdf:type owl:Class ;
+                    rdfs:comment "Compentent authority for a manufacturer" ;
+                    rdfs:label "CompetentAuthority" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#Country
+:Country rdf:type owl:Class ;
+         rdfs:comment "The countries of the world. Used on incidentes and manufacturers" ;
+         rdfs:label "Country" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#Device
+:Device rdf:type owl:Class ;
+        rdfs:comment "Names and characteristics for \"High risk medical devices\" and \"in vitro diagnosis\", made by some manufacturer with the corresponding regulation (MDR or IVDR)." ;
+        rdfs:label "Device" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#DeviceIVD
+:DeviceIVD rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( :Device
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty :risk_class ;
+                                                        owl:someValuesFrom :IVDRiskClass
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           owl:disjointWith :DeviceMD .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#DeviceMD
+:DeviceMD rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( :Device
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :risk_class ;
+                                                       owl:someValuesFrom :MDRiskClass
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#DeviceType
+:DeviceType rdf:type owl:Class ;
+            rdfs:comment "Tipes of medical devices and in vitro diagnosis" ;
+            rdfs:label "DeviceType" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#FSCA
+:FSCA rdf:type owl:Class ;
+      owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :FSCA_countries_affected ;
+                                                   owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                   owl:onClass :Country
+                                                 ]
+                                                 [ rdf:type owl:Restriction ;
+                                                   owl:onProperty :closure_date ;
+                                                   owl:someValuesFrom xsd:dateTime
+                                                 ]
+                                               ) ;
+                            rdf:type owl:Class
+                          ] ;
+      rdfs:comment "The security corrective action in the field against incidents" ;
+      rdfs:label "FSCA" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#Gender
+:Gender rdf:type owl:Class ;
+        rdfs:comment "Gender of the patient afected by an incident" ;
+        rdfs:label "Gender" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#IVDRiskClass
+:IVDRiskClass rdf:type owl:Class ;
+              rdfs:subClassOf :RiskClass ;
+              owl:disjointWith :MDRiskClass ;
+              rdfs:comment "\"In vitro diagonisis\" risk classes" ;
+              rdfs:label "IVDRiskClass" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#Incident
+:Incident rdf:type owl:Class ;
+          rdfs:comment "Incident data, the device and the afected patient" ;
+          rdfs:label "Incident" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#IncidentType
+:IncidentType rdf:type owl:Class ;
+              rdfs:comment "Types of device incidents" ;
+              rdfs:label "IncidentType" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#MDRiskClass
+:MDRiskClass rdf:type owl:Class ;
+             rdfs:subClassOf :RiskClass ;
+             rdfs:comment "\"Medical devices\" risk classes" ;
+             rdfs:label "MDRiskClass" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#Manufacturer
+:Manufacturer rdf:type owl:Class ;
+              rdfs:comment "The manufacturers of the devices and the company information." ;
+              rdfs:label "Manufacturer" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#Probability
+:Probability rdf:type owl:Class ;
+             rdfs:comment "Probability category of a risk. Values are \"Moderate\", \"Serious\" and \"Critical\"." ;
+             rdfs:label "Probability" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#RegulatoryFramework
+:RegulatoryFramework rdf:type owl:Class ;
+                     rdfs:comment "Regulatory european frameworks of devices. The frameworks are \"MDR\" and \"IVDR\"" ;
+                     rdfs:label "RegulatoryFramework" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#Risk
+:Risk rdf:type owl:Class ;
+      rdfs:comment "Known risk of a certain device type" ;
+      rdfs:label "Risk" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#RiskCategory
+:RiskCategory rdf:type owl:Class ;
+              rdfs:comment "Categories of risks" ;
+              rdfs:label "RiskCategory" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#RiskClass
+:RiskClass rdf:type owl:Class ;
+           rdfs:comment "Classes of risks" ;
+           rdfs:label "RiskClass" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#RiskType
+:RiskType rdf:type owl:Class ;
+          rdfs:comment "Types of risks" ;
+          rdfs:label "RiskType" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#Severity
+:Severity rdf:type owl:Class ;
+          rdfs:comment "Risk severity categories" ;
+          rdfs:label "Severity" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#Status
+:Status rdf:type owl:Class ;
+        rdfs:comment "The FSCA's status" ;
+        rdfs:label "Status" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#AuthorityIreland
+:AuthorityIreland rdf:type owl:NamedIndividual ,
+                           :CompetentAuthority ;
+                  :authority_name "Health Products Regulatory Authority (HPRA)" ;
+                  rdfs:comment "Health Products Regulatory Authority (HPRA)" ;
+                  rdfs:label "AuthorityIreland" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#Device001
+:Device001 rdf:type owl:NamedIndividual ;
+           :device_manufacturer_id :Manufacturer001 ;
+           :device_type :DeviceType1 ;
+           :regulatory_framework :regulatoryFWMDR ;
+           :risk_class :MDRiskClassIII ;
+           :active "true"^^xsd:boolean ;
+           :device_id "DEV-001" ;
+           :device_name "HeartMate 3 LVAD" ;
+           :intended_purpose "Ventricular assist device for end-stage heart failure" ;
+           :is_implantable "true"^^xsd:boolean ;
+           :is_ivd "false"^^xsd:boolean ;
+           :reusable "false"^^xsd:boolean ;
+           :udi_id "(01)00380740009095" ;
+           rdfs:comment "HeartMate 3 LVAD from Ireland" ;
+           rdfs:label "Device-001" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#DeviceType1
+:DeviceType1 rdf:type owl:NamedIndividual ,
+                      :DeviceType ;
+             rdfs:comment "The type Implantable active device" ;
+             rdfs:label "ImplantableActiveDevice" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#Ireland
+:Ireland rdf:type owl:NamedIndividual ,
+                  :Country ;
+         rdfs:comment "Country of Ireland (IE)" ;
+         rdfs:label "Ireland" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#MDRiskClassIII
+:MDRiskClassIII rdf:type owl:NamedIndividual ,
+                         :MDRiskClass ;
+                rdfs:comment "The MD class III" ;
+                rdfs:label "ClassIII" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#Manufacturer001
+:Manufacturer001 rdf:type owl:NamedIndividual ,
+                          :Manufacturer ;
+                 :competent_authority :AuthorityIreland ;
+                 :manufacturer_country :Ireland ;
+                 :authorization_number "IE/2017/001234" ;
+                 :contact_email "regulatory@medtronic.com" ;
+                 :eudamed_srn "SRN-IE-MED-0001" ;
+                 :manufacturer_id "MAN-001" ;
+                 :name "Medtronic plc" ;
+                 rdfs:comment "Manufacturer Medtronic plc" ;
+                 rdfs:label "Manufacturer-001" .
+
+
+###  http://www.semanticweb.org/marco/ontologies/2026/3/DismedrDiagiv#regulatoryFWMDR
+:regulatoryFWMDR rdf:type owl:NamedIndividual ,
+                          :RegulatoryFramework ;
+                 rdfs:comment "The regulatory framework MDR" ;
+                 rdfs:label "MDR" .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
